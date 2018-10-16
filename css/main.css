@@ -2,6 +2,14 @@ html {
   font-family: "Unica One", sans-serif;
 }
 
+h1 {
+  top: 50px;
+  left: 50px;
+  margin: 0;
+  color: #fff;
+  max-width: 50%;
+}
+
 #narwhal-body {
   animation: narwhal-movement 1s linear forwards;
   stroke-dasharray: 1982px;
