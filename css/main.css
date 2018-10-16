@@ -8,9 +8,27 @@ html {
   stroke-dashoffset: 1982px;
 }
 
+#narwhal-eye {
+  animation: eye-movement 1s linear;
+}
+
+#rainbow {
+  animation: rainbow-movement 10s linear forwards;
+  stroke-dasharray: 11124px;
+  stroke-dashoffset: 11124px;
+}
+
+@keyframes rainbow-movement {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
 @keyframes narwhal-movement {
 
-  to{
+  to {
     stroke-dashoffset: 0;
   }
 
